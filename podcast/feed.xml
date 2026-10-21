@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI in Finance Daily</title>
+    <link>https://genehalbrooks.com/podcast/</link>
+    <language>en-us</language>
+    <description>Daily briefing on AI in financial systems: agentic finance, FP&amp;A tech, close automation, and the platforms that run it all.
+
+AI Generated</description>
+    <copyright>© 2026 Gene Halbrooks</copyright>
+    <atom:link href="https://genehalbrooks.com/podcast/feed.xml" rel="self" type="application/rss+xml"/>
+    <itunes:author>Gene Halbrooks</itunes:author>
+    <itunes:category text="Business"><itunes:category text="Investing"/></itunes:category>
+    <itunes:category text="Technology"/>
+    <itunes:image href="https://genehalbrooks.com/podcast/cover.png"/>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
+    <itunes:owner>
+      <itunes:name>Gene Halbrooks</itunes:name>
+    </itunes:owner>
+    <image>
+      <url>https://genehalbrooks.com/podcast/cover.png</url>
+      <title>AI in Finance Daily</title>
+      <link>https://genehalbrooks.com/podcast/</link>
+    </image>
+    <item>
+      <title>AI in Finance Daily — October 21, 2026</title>
+      <description>OneStream brings governed SensibleAI Agents to SAP finance teams, PYMNTS/JPMorgan data shows gen AI cash use at 80% while agentic execution stays at 5%, DualEntry&#x27;s benchmark finds consistency is the gap for ledger models, VapusData launches a governed finance OS, and Money20/20 splits over letting outside agents in.
+
+AI Generated</description>
+      <enclosure url="https://muse.ai/podcasts/media/1134902803030549/5731bf1e-7078-4a4e-87ac-9474c7e4533b/ep-1a76268a-4798-4f8e-93d1-c0b7256392eb.mp3" length="2924965" type="audio/mpeg"/>
+      <guid isPermaLink="false">ep-1a76268a-4798-4f8e-93d1-c0b7256392eb</guid>
+      <pubDate>Wed, 21 Oct 2026 12:57:48 +0000</pubDate>
+      <itunes:duration>365</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>AI in Finance Daily — October 20, 2026</title>
+      <description>BILL puts a control hub and risk intelligence around its finance agents, Workday&#x27;s Decision Intelligence gets a real post-close test at Unity with proof still thin, Huntington builds a Gemini-powered operating system for small businesses, and OpenAI&#x27;s Itaú and Benefit Street cases pair assistants with governance.
+
+AI Generated</description>
+      <enclosure url="https://muse.ai/podcasts/media/1134902803030549/5731bf1e-7078-4a4e-87ac-9474c7e4533b/ep-6615e35f-a19d-4b4e-b2d2-375cc01eead9.mp3" length="2701669" type="audio/mpeg"/>
+      <guid isPermaLink="false">ep-6615e35f-a19d-4b4e-b2d2-375cc01eead9</guid>
+      <pubDate>Tue, 20 Oct 2026 12:58:30 +0000</pubDate>
+      <itunes:duration>337</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>AI in Finance Daily — October 19, 2026</title>
+      <description>Datarails Spend ties spending to the live plan at request time, Oracle NetSuite gives away a free AI-first finance platform to win startup ledgers early, and Tungsten Automation folds payments into accounts payable on a real-time core ledger.
+
+AI Generated</description>
+      <enclosure url="https://muse.ai/podcasts/media/1134902803030549/5731bf1e-7078-4a4e-87ac-9474c7e4533b/ep-1aeb1a6c-73a6-49f1-948a-d4ce535e2b09.mp3" length="2490469" type="audio/mpeg"/>
+      <guid isPermaLink="false">ep-1aeb1a6c-73a6-49f1-948a-d4ce535e2b09</guid>
+      <pubDate>Mon, 19 Oct 2026 13:40:40 +0000</pubDate>
+      <itunes:duration>311</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>AI in Finance Daily — October 18, 2026</title>
+      <description>CFOs tighten AI and token spending with limits, cheaper models, and dashboards, a framework for proving AI return in cost avoidance, revenue protection, and strategic optionality, and Tether-backed AIsa builds governed agent payments while real agent volumes remain tiny.
+
+AI Generated</description>
+      <enclosure url="https://muse.ai/podcasts/media/1134902803030549/5731bf1e-7078-4a4e-87ac-9474c7e4533b/ep-9a7cabb8-f097-4c55-b688-52859a2a7fcc.mp3" length="3137509" type="audio/mpeg"/>
+      <guid isPermaLink="false">ep-9a7cabb8-f097-4c55-b688-52859a2a7fcc</guid>
+      <pubDate>Sun, 18 Oct 2026 14:02:20 +0000</pubDate>
+      <itunes:duration>392</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>AI in Finance Daily — October 17, 2026</title>
+      <description>Genpact puts agentic AI into accounts receivable, executives at EY&#x27;s Journey panel say AI budgets are tripling under KPI discipline, US corporate tax receipts fall 15% as AI capex write-offs offset record profits, lawmakers question Meta&#x27;s .6B research tax credit, and LeadSquared&#x27;s CFO builds a real-time finance engine.
+
+AI Generated</description>
+      <enclosure url="https://muse.ai/podcasts/media/1134902803030549/5731bf1e-7078-4a4e-87ac-9474c7e4533b/ep-81de354b-fbf9-44df-b452-8d2d97457b8b.mp3" length="3308005" type="audio/mpeg"/>
+      <guid isPermaLink="false">ep-81de354b-fbf9-44df-b452-8d2d97457b8b</guid>
+      <pubDate>Sat, 17 Oct 2026 13:59:12 +0000</pubDate>
+      <itunes:duration>413</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>AI in Finance Daily — October 16, 2026</title>
+      <description>Intuit acquires AI-native revenue platform Sequence, FIS puts its Anthropic-built AML investigations agent on sale to every US bank, UK data show CFO headcount expectations far ahead of delivered results, and Figma&#x27;s CFO accepts lower margins to chase AI demand.
+
+AI Generated</description>
+      <enclosure url="https://muse.ai/podcasts/media/1134902803030549/5731bf1e-7078-4a4e-87ac-9474c7e4533b/ep-5d3008aa-0ece-4453-8301-2806deb998a2.mp3" length="2898853" type="audio/mpeg"/>
+      <guid isPermaLink="false">ep-5d3008aa-0ece-4453-8301-2806deb998a2</guid>
+      <pubDate>Fri, 16 Oct 2026 13:57:22 +0000</pubDate>
+      <itunes:duration>362</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>AI in Finance Daily — October 15, 2026</title>
+      <description>Finance leaders face intense pressure to implement AI while spending much of their day checking its outputs, Maxio puts seven specialist agents inside its billing platform, Deloitte finds UK CFOs expecting AI-driven headcount cuts, and Ascend launches Cora for commissions reconciliation.
+
+AI Generated</description>
+      <enclosure url="https://muse.ai/podcasts/media/1134902803030549/5731bf1e-7078-4a4e-87ac-9474c7e4533b/ep-0bd1fe33-2d4e-4a06-80bb-7e5e885e4cc4.mp3" length="3038821" type="audio/mpeg"/>
+      <guid isPermaLink="false">ep-0bd1fe33-2d4e-4a06-80bb-7e5e885e4cc4</guid>
+      <pubDate>Thu, 15 Oct 2026 13:57:51 +0000</pubDate>
+      <itunes:duration>379</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>AI in Finance Daily — October 14, 2026</title>
+      <description>Workday and Anthropic connect Claude&#x27;s reasoning to Workday&#x27;s rules and permissions for HR and finance, Abacum launches Modeler to bring agentic modeling to FP&amp;A teams, and Quadient adds an email agent to accounts receivable.
+
+AI Generated</description>
+      <enclosure url="https://muse.ai/podcasts/media/1134902803030549/5731bf1e-7078-4a4e-87ac-9474c7e4533b/ep-b2001d21-528d-4105-8b05-86f0faf36c25.mp3" length="2931301" type="audio/mpeg"/>
+      <guid isPermaLink="false">ep-b2001d21-528d-4105-8b05-86f0faf36c25</guid>
+      <pubDate>Wed, 14 Oct 2026 13:57:06 +0000</pubDate>
+      <itunes:duration>366</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>AI in Finance Daily — October 13, 2026</title>
+      <description>OneStream&#x27;s Forward Finance Index finds finance scaling AI faster than it can trust the results, DualEntry brings agents into everyday ERP work with Tasks, and Wolters Kluwer adds conversational AI and automated bank reconciliation to Genya.
+
+AI Generated</description>
+      <enclosure url="https://muse.ai/podcasts/media/1134902803030549/5731bf1e-7078-4a4e-87ac-9474c7e4533b/ep-127e86d5-bea5-4263-93ed-b6cd8821291f.mp3" length="3330661" type="audio/mpeg"/>
+      <guid isPermaLink="false">ep-127e86d5-bea5-4263-93ed-b6cd8821291f</guid>
+      <pubDate>Tue, 13 Oct 2026 13:58:55 +0000</pubDate>
+      <itunes:duration>416</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>AI in Finance Daily — October 12, 2026</title>
+      <description>Maya and Dev cover four AI-in-finance stories: FIS launches its Agentic Insights Suite for the CFO office, EY rolls autonomous agents into global audits, Payhawk unveils its AI Office of the CFO, and startup Tergle builds custom AI audit agents.
+
+AI Generated</description>
+      <enclosure url="https://muse.ai/podcasts/media/1134902803030549/5731bf1e-7078-4a4e-87ac-9474c7e4533b/ep-493afe23-36c5-432d-9129-2df93790c3d5.mp3" length="2244133" type="audio/mpeg"/>
+      <guid isPermaLink="false">ep-493afe23-36c5-432d-9129-2df93790c3d5</guid>
+      <pubDate>Mon, 12 Oct 2026 13:56:56 +0000</pubDate>
+      <itunes:duration>280</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>AI in Finance Daily — October 11, 2026</title>
+      <description>Maya and Dev cover three AI-in-finance stories: ISG naming OneStream the top Overall Leader in its 2026 Record to Report Buyers Guides, Gartner&#x27;s advice to pilot governance first before scaling AI agents, and CaixaBank&#x27;s expanded Google Cloud partnership through 2033.
+
+AI Generated</description>
+      <enclosure url="https://muse.ai/podcasts/media/1134902803030549/5731bf1e-7078-4a4e-87ac-9474c7e4533b/ep-d6e5f293-4f89-41e3-b665-306c07914d57.mp3" length="2137189" type="audio/mpeg"/>
+      <guid isPermaLink="false">ep-d6e5f293-4f89-41e3-b665-306c07914d57</guid>
+      <pubDate>Sun, 11 Oct 2026 13:58:10 +0000</pubDate>
+      <itunes:duration>267</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>AI in Finance Daily — October 10, 2026</title>
+      <description>Maya and Dev cover four AI-in-finance stories: Genpact&#x27;s agentic month-end close suite, Trintech&#x27;s Adra journal entry automation, ISG&#x27;s 2026 FAO Provider Lens report, and AI forecasting for cash-flow management.
+
+AI Generated</description>
+      <enclosure url="https://muse.ai/podcasts/media/1134902803030549/5731bf1e-7078-4a4e-87ac-9474c7e4533b/ep-ca5cb7f4-9ab2-4b11-8825-135973523240.mp3" length="1219813" type="audio/mpeg"/>
+      <guid isPermaLink="false">ep-ca5cb7f4-9ab2-4b11-8825-135973523240</guid>
+      <pubDate>Sat, 10 Oct 2026 12:57:56 +0000</pubDate>
+      <itunes:duration>152</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+  </channel>
+</rss>
