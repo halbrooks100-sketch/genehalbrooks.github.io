@@ -2,7 +2,7 @@ name: Sync podcast feed
 
 on:
   schedule:
-    - cron: "30 15 * * *"   # daily, ~1.5h after Muse publishes (~14:00 UTC)
+    - cron: "15 * * * *"    # hourly; commits only when Muse has a new episode
   workflow_dispatch:
 
 permissions:
