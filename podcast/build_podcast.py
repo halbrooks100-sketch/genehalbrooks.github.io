@@ -15,6 +15,7 @@ SITE = "https://genehalbrooks.com"
 FEED_URL = f"{SITE}/podcast/feed.xml"
 COVER_URL = f"{SITE}/podcast/cover.png"
 AUTHOR = "Gene Halbrooks"
+APPLE_URL = "https://podcasts.apple.com/us/podcast/ai-in-finance-daily/id6825482942"
 ITUNES = "http://www.itunes.com/dtds/podcast-1.0.dtd"
 OUT = pathlib.Path(__file__).parent
 
@@ -130,6 +131,10 @@ main{{padding:24px 16px 48px;}}
 .ep p{{margin:0 0 12px;color:var(--muted);}}
 .ep-date{{font-size:.8rem;text-transform:uppercase;letter-spacing:.05em;color:var(--accent)!important;font-weight:600;}}
 audio{{width:100%;}}
+.apple-btn{{display:inline-flex;align-items:center;gap:8px;background:var(--accent);color:var(--navy)!important;font-weight:600;text-decoration:none;padding:10px 18px;border-radius:8px;margin:4px 0 12px;}}
+.apple-btn:hover{{filter:brightness(1.08);}}
+.apple-btn svg{{width:16px;height:16px;fill:var(--navy);}}
+.feed-link{{font-size:.9rem;}}
 footer{{text-align:center;color:var(--muted);font-size:.85rem;padding:24px 16px;}}
 </style>
 </head>
@@ -140,7 +145,10 @@ footer{{text-align:center;color:var(--muted);font-size:.85rem;padding:24px 16px;
   <div style="flex:1;min-width:240px">
     <h1>{esc(title)}</h1>
     <p>{esc(desc.splitlines()[0])}</p>
-    <p><a href="feed.xml">RSS feed</a> · AI generated</p>
+    <a class="apple-btn" href="{APPLE_URL}" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.14v13.72a1 1 0 0 0 1.52.85l11-6.86a1 1 0 0 0 0-1.7l-11-6.86A1 1 0 0 0 8 5.14z"/></svg>
+      Listen on Apple Podcasts</a>
+    <p class="feed-link"><a href="feed.xml">RSS feed</a> · AI generated</p>
   </div>
 </div></header>
 <main class="wrap">{cards}
