@@ -10,11 +10,6 @@
 :root{--navy:#0f2240;--navy-mid:#1a3a6b;--gold:#c9a84c;--gold-light:#e8c97a;--off-white:#f5f3ee;--text-dark:#111827;--text-mid:#374151;--text-muted:#6b7280;--border:rgba(15,34,64,0.12);--font-display:'Playfair Display',Georgia,serif;--font-body:'IBM Plex Sans',sans-serif;}
 html{scroll-behavior:smooth;}
 body{font-family:var(--font-body);background:var(--off-white);color:var(--text-dark);font-size:15px;line-height:1.7;}
-.podcast-bar{display:flex;align-items:center;justify-content:center;gap:0.6rem;flex-wrap:wrap;background:var(--gold);color:var(--navy);text-decoration:none;font-size:0.85rem;font-weight:500;padding:0.55rem 1rem;text-align:center;}
-.podcast-bar strong{font-weight:700;}
-.podcast-bar .pb-cta{text-decoration:underline;font-weight:600;white-space:nowrap;}
-.podcast-bar:hover{background:var(--gold-light);}
-.podcast-bar svg{width:16px;height:16px;fill:var(--navy);flex-shrink:0;}
 nav{position:sticky;top:0;z-index:100;background:var(--navy);display:flex;align-items:center;justify-content:space-between;padding:0 2.5rem;height:58px;border-bottom:2px solid var(--gold);}
 .nav-logo{font-family:var(--font-display);color:#fff;font-size:1.1rem;letter-spacing:0.03em;}
 .nav-logo span{color:var(--gold);}
@@ -27,7 +22,11 @@ nav{position:sticky;top:0;z-index:100;background:var(--navy);display:flex;align-
 .hero::before{content:'';position:absolute;inset:0;background:repeating-linear-gradient(90deg,transparent,transparent 79px,rgba(255,255,255,0.03) 79px,rgba(255,255,255,0.03) 80px);pointer-events:none;}
 .hero-inner{max-width:860px;margin:0 auto;position:relative;}
 .hero-layout{display:flex;align-items:center;gap:3rem;flex-wrap:wrap;}
-.hero-photo{flex-shrink:0;}
+.hero-photo{flex-shrink:0;display:flex;flex-direction:column;align-items:center;gap:1.5rem;}
+.hero-podcast{display:flex;flex-direction:column;align-items:center;gap:0.5rem;text-decoration:none;}
+.hero-photo .hero-podcast img{width:110px;height:110px;border-radius:12px;object-fit:cover;border:1px solid rgba(201,168,76,0.5);box-shadow:none;transition:transform 0.2s;}
+.hero-podcast:hover img{transform:scale(1.04);}
+.hero-podcast span{font-size:0.72rem;letter-spacing:0.08em;text-transform:uppercase;color:var(--gold-light);font-weight:500;}
 .hero-photo img{width:160px;height:160px;border-radius:50%;object-fit:cover;object-position:center top;border:3px solid var(--gold);box-shadow:0 0 0 6px rgba(201,168,76,0.2);}
 .hero-content{flex:1;min-width:280px;}
 .hero-eyebrow{font-size:0.75rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--gold);font-weight:500;margin-bottom:1rem;}
@@ -106,6 +105,8 @@ footer a:hover{text-decoration:underline;}
   .hero{padding:2.5rem 1.25rem 2.5rem;}
   .hero-layout{flex-direction:column;gap:1.5rem;align-items:flex-start;}
   .hero-photo img{width:120px;height:120px;}
+  .hero-photo{flex-direction:row;align-items:center;}
+  .hero-photo .hero-podcast img{width:90px;height:90px;}
   .hero h1{font-size:2.4rem;}
   .hero-title{font-size:0.95rem;}
   .hero-summary{font-size:0.92rem;}
@@ -128,12 +129,6 @@ footer a:hover{text-decoration:underline;}
 </head>
 <body>
 
-<a class="podcast-bar" href="podcast/">
-  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 0 0-9 9v6a3 3 0 0 0 3 3h1a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2H5v-1a7 7 0 0 1 14 0v1h-2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h1a3 3 0 0 0 3-3v-6a9 9 0 0 0-9-9z"/></svg>
-  <span><strong>AI in Finance Daily</strong> &mdash; my daily podcast on AI in financial systems, close automation &amp; FP&amp;A tech</span>
-  <span class="pb-cta">Listen now &rarr;</span>
-</a>
-
 <nav>
   <div class="nav-logo">Gene Halbrooks <span>·</span> Financial Systems</div>
   <ul class="nav-links">
@@ -151,6 +146,10 @@ footer a:hover{text-decoration:underline;}
     <div class="hero-layout">
       <div class="hero-photo">
         <img src="gene_headshot.jpg" alt="Gene Halbrooks" />
+        <a href="podcast/" class="hero-podcast" title="AI in Finance Daily podcast">
+          <img src="podcast/cover.png" alt="AI in Finance Daily podcast" />
+          <span>AI in Finance Daily</span>
+        </a>
       </div>
       <div class="hero-content">
     <p class="hero-eyebrow">Financial Systems Professional</p>
