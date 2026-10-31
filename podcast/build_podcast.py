@@ -102,7 +102,6 @@ def main():
       <p class="ep-date">{parsedate_to_datetime(i['pub']).strftime('%B %d, %Y').replace(' 0', ' ')}</p>
       <h2>{esc(i['title'])}</h2>
       <p>{esc(i['desc'].replace('AI Generated', '').strip())}</p>
-      <audio controls preload="none" src="{esc(i['url'])}"></audio>
     </article>""" for i in items)
 
     page = f"""<!doctype html>
@@ -130,7 +129,6 @@ main{{padding:24px 16px 48px;}}
 .ep h2{{font-size:1.1rem;margin:0 0 8px;}}
 .ep p{{margin:0 0 12px;color:var(--muted);}}
 .ep-date{{font-size:.8rem;text-transform:uppercase;letter-spacing:.05em;color:var(--accent)!important;font-weight:600;}}
-audio{{width:100%;}}
 .apple-btn{{display:inline-flex;align-items:center;gap:8px;background:var(--accent);color:var(--navy)!important;font-weight:600;text-decoration:none;padding:10px 18px;border-radius:8px;margin:4px 0 12px;}}
 .apple-btn:hover{{filter:brightness(1.08);}}
 .apple-btn svg{{width:16px;height:16px;fill:var(--navy);}}
