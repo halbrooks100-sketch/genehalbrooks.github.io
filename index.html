@@ -10,6 +10,11 @@
 :root{--navy:#0f2240;--navy-mid:#1a3a6b;--gold:#c9a84c;--gold-light:#e8c97a;--off-white:#f5f3ee;--text-dark:#111827;--text-mid:#374151;--text-muted:#6b7280;--border:rgba(15,34,64,0.12);--font-display:'Playfair Display',Georgia,serif;--font-body:'IBM Plex Sans',sans-serif;}
 html{scroll-behavior:smooth;}
 body{font-family:var(--font-body);background:var(--off-white);color:var(--text-dark);font-size:15px;line-height:1.7;}
+.podcast-bar{display:flex;align-items:center;justify-content:center;gap:0.6rem;flex-wrap:wrap;background:var(--gold);color:var(--navy);text-decoration:none;font-size:0.85rem;font-weight:500;padding:0.55rem 1rem;text-align:center;}
+.podcast-bar strong{font-weight:700;}
+.podcast-bar .pb-cta{text-decoration:underline;font-weight:600;white-space:nowrap;}
+.podcast-bar:hover{background:var(--gold-light);}
+.podcast-bar svg{width:16px;height:16px;fill:var(--navy);flex-shrink:0;}
 nav{position:sticky;top:0;z-index:100;background:var(--navy);display:flex;align-items:center;justify-content:space-between;padding:0 2.5rem;height:58px;border-bottom:2px solid var(--gold);}
 .nav-logo{font-family:var(--font-display);color:#fff;font-size:1.1rem;letter-spacing:0.03em;}
 .nav-logo span{color:var(--gold);}
@@ -122,6 +127,12 @@ footer a:hover{text-decoration:underline;}
 </style>
 </head>
 <body>
+
+<a class="podcast-bar" href="podcast/">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 0 0-9 9v6a3 3 0 0 0 3 3h1a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2H5v-1a7 7 0 0 1 14 0v1h-2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h1a3 3 0 0 0 3-3v-6a9 9 0 0 0-9-9z"/></svg>
+  <span><strong>AI in Finance Daily</strong> &mdash; my daily podcast on AI in financial systems, close automation &amp; FP&amp;A tech</span>
+  <span class="pb-cta">Listen now &rarr;</span>
+</a>
 
 <nav>
   <div class="nav-logo">Gene Halbrooks <span>·</span> Financial Systems</div>
