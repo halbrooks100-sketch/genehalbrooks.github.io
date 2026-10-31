@@ -26,6 +26,8 @@ nav{position:sticky;top:0;z-index:100;background:var(--navy);display:flex;align-
 .hero-podcast{display:flex;flex-direction:column;align-items:center;gap:0.5rem;text-decoration:none;}
 .hero-photo .hero-podcast img{width:110px;height:110px;border-radius:12px;object-fit:cover;border:1px solid rgba(201,168,76,0.5);box-shadow:none;transition:transform 0.2s;}
 .hero-podcast:hover img{transform:scale(1.04);}
+.hero-podcast-cta{margin-top:-0.35rem;text-transform:none!important;letter-spacing:0!important;color:rgba(255,255,255,0.75)!important;font-size:0.78rem!important;}
+.hero-podcast:hover .hero-podcast-cta{color:var(--gold-light)!important;}
 .hero-podcast span{font-size:0.72rem;letter-spacing:0.08em;text-transform:uppercase;color:var(--gold-light);font-weight:500;}
 .hero-photo img{width:160px;height:160px;border-radius:50%;object-fit:cover;object-position:center top;border:3px solid var(--gold);box-shadow:0 0 0 6px rgba(201,168,76,0.2);}
 .hero-content{flex:1;min-width:280px;}
@@ -149,6 +151,7 @@ footer a:hover{text-decoration:underline;}
         <a href="podcast/" class="hero-podcast" title="AI in Finance Daily podcast">
           <img src="podcast/cover.png" alt="AI in Finance Daily podcast" />
           <span>AI in Finance Daily</span>
+          <span class="hero-podcast-cta">Listen now &rarr;</span>
         </a>
       </div>
       <div class="hero-content">
