@@ -107,8 +107,9 @@ footer a:hover{text-decoration:underline;}
   .hero{padding:2.5rem 1.25rem 2.5rem;}
   .hero-layout{flex-direction:column;gap:1.5rem;align-items:flex-start;}
   .hero-photo img{width:120px;height:120px;}
-  .hero-photo{flex-direction:row;align-items:center;}
-  .hero-photo .hero-podcast img{width:90px;height:90px;}
+  .hero-photo{flex-direction:row;flex-wrap:wrap;justify-content:center;align-items:flex-start;gap:1rem;max-width:100%;}
+  .hero-podcast{max-width:100px;text-align:center;}
+  .hero-photo .hero-podcast img{width:76px;height:76px;}
   .hero h1{font-size:2.4rem;}
   .hero-title{font-size:0.95rem;}
   .hero-summary{font-size:0.92rem;}
@@ -152,6 +153,11 @@ footer a:hover{text-decoration:underline;}
           <img src="podcast/cover.png" alt="AI in Finance Daily podcast" />
           <span>AI in Finance Daily</span>
           <span class="hero-podcast-cta">Listen now &rarr;</span>
+        </a>
+        <a href="https://findthelivemusic.com" target="_blank" rel="noopener" class="hero-podcast" title="FindTheLiveMusic — find live music near you">
+          <img src="findthelivemusic-icon.png" alt="FindTheLiveMusic app" />
+          <span>FindTheLiveMusic</span>
+          <span class="hero-podcast-cta">Find a show &rarr;</span>
         </a>
       </div>
       <div class="hero-content">
